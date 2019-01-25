@@ -81,7 +81,9 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    @foreach($species as $specie)
+                    <span>{{$specie['name']}}</span>
+                    @endforeach
                 </div>
 
                 <div class="links">
